@@ -82,8 +82,9 @@ header nav .right-side{
 
 .categories-item,
 .sub-categories-item{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px
 }
 
 .active{
@@ -98,7 +99,6 @@ header nav .right-side{
     border-radius: 16px;
     display: flex;
     align-items: center;
-    width: 241px;
     padding: 16px 16px 16px 33px;
     border: none;
     outline: none;
