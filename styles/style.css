@@ -232,6 +232,7 @@ header nav .right-side{
 
     }
 
+
     .categories-item button,
     .sub-categories-item button{
    
@@ -239,7 +240,11 @@ header nav .right-side{
         padding: 16px 16px 16px 16px;
     }
 
-    .categories-item,
+    .categories-item{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
     .sub-categories-item{
         display: grid;
         grid-template-columns: auto auto;
