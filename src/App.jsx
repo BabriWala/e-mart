@@ -1,16 +1,10 @@
-// import Home from "./pages/Home"
-import { RouterProvider } from "react-router-dom"
-import router from "./router/router"
-// import Login from "./pages/login"
-
+import { RouterProvider } from 'react-router-dom'
+import './App.css'
+import router from './router/router'
 function App() {
 
-
   return (
-    <>
-     {/* <Login></Login> */}
-     <RouterProvider router={router}><App /></RouterProvider>
-    </>
+    <RouterProvider router={router}></RouterProvider>
   )
 }
 
